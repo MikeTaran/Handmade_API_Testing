@@ -2,10 +2,10 @@ import allure
 import requests
 
 from config.headers import Headers
-from services.users.endpoints import Endpoints
-from services.users.pyloads import Payloads
+from config.endpoints import Endpoints
+from main_requests.users.pyloads import Payloads
 from utils.helper import Helper
-from services.users.models.user_model import UserModel
+from main_requests.users.models.user_model import UserModel
 
 
 class UsersAPI(Helper):
